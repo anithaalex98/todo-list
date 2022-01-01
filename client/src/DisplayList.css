@@ -1,0 +1,53 @@
+.displaylist-tittle
+{
+    font-family: Dancing Script;
+    font-size: 40px;
+    margin: 20px 0 20px 20px;
+}
+
+.todolist-div
+{
+    margin:10px;
+}
+
+.star-in-list {
+    visibility:hidden;
+    font-size:50px;
+    /* left: 325px; */
+    /* position: absolute; */
+    /* bottom: 90px; */
+    cursor:pointer;
+    color: gold;
+}
+.star-in-list:before {
+   content: "\2606";
+   position: absolute;
+   visibility:visible;
+}
+.star-in-list:checked:before {
+   content: "\2605";
+   position: absolute;
+}
+
+
+#delete-item
+{
+    border-color: crimson;
+    font-size: 12px;
+}
+
+#add-item
+{
+    border-radius: 20px;
+    border-color: #000000;
+    font-size: 15px;
+    margin: 10px 0 0 0;
+}
+
+#update-button , #delete-button
+{
+    font-size: 20px;
+    color:white;
+    font-weight: bold; 
+    margin:10px;
+}
